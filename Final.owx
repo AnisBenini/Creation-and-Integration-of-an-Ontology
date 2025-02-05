@@ -1,0 +1,1132 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/dell/ontologies/2025/1/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/dell/ontologies/2025/1/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.semanticweb.org/dell/ontologies/2025/1/untitled-ontology-3/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Accompagnateur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Activité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Appartement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Auberge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Camping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Destination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Divertissement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ecotourisme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Festival"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hébergement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location_avec_chauffeur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location_sans_chauffeur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loisirs_Ext"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MobiliteCollective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobilité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MobilitéIndividuelle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Navigation_fluviale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relief"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reservation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServiceTouristique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Site_balnéaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spectacle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Séjour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Séjour_tout_compris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Touriste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Train"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trekking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Users"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ville_patrimoniale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Visite_guidée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Voiture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Voyagiste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Point_d&apos;interet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Contient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#appartient_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#associe_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#connecte"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#faitUneReservation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#guide"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inclut"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#organise"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#permet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#propose"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#réservé_par"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#situé_a"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Altitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Capacité"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Certification"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Confort"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cout"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Disponibilité"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Durée"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Empreinte_Carbonne"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Equipement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Exp"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Impact_Env"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Langues_parlées"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Localisation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Mode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Mode_Paiement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nom"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Num_Confirmation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Prestation_Incluses"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Prix"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TypeVehicule"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#accessibilité"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#adresse"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#coordonnées"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#service"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#status"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#type"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Air_France"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alpes_Francaises"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Appartement_Central"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Auberge_Bellevue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Festival_de_Cannes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GlobeTrotter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guide_Marie_Dupont"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hotel_Le_Louvre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Plage_de_Copacabana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Randonnée_Pyrénées"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Service_Limousine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Séjour_Premium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TGV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tour_Eiffel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visite_Louvre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#circuit_Vert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reservation_N°1234"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Accompagnateur"/>
+        <Class IRI="#ServiceTouristique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Activité"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Activité"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#réservé_par"/>
+            <Class IRI="#Reservation"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Appartement"/>
+        <Class IRI="#Hébergement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Auberge"/>
+        <Class IRI="#Hébergement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avion"/>
+        <Class IRI="#MobiliteCollective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus"/>
+        <Class IRI="#MobiliteCollective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Camping"/>
+        <Class IRI="#Hébergement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Concert"/>
+        <Class IRI="#Divertissement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Destination"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Destination"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#Contient"/>
+            <Class IRI="#Destination"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Divertissement"/>
+        <Class IRI="#Activité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ecotourisme"/>
+        <Class IRI="#Séjour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Festival"/>
+        <Class IRI="#Divertissement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guide"/>
+        <Class IRI="#Users"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotel"/>
+        <Class IRI="#Hébergement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hébergement"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location_avec_chauffeur"/>
+        <Class IRI="#Voiture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location_sans_chauffeur"/>
+        <Class IRI="#Voiture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loisirs_Ext"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MobiliteCollective"/>
+        <Class IRI="#Mobilité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobilité"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MobilitéIndividuelle"/>
+        <Class IRI="#Mobilité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Navigation_fluviale"/>
+        <Class IRI="#Mobilité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Relief"/>
+        <Class IRI="#Destination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reservation"/>
+        <Class IRI="#ServiceTouristique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceTouristique"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Site_balnéaire"/>
+        <Class IRI="#Destination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spectacle"/>
+        <Class IRI="#Divertissement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sport"/>
+        <Class IRI="#Activité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Séjour"/>
+        <Class IRI="#ServiceTouristique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Séjour_tout_compris"/>
+        <Class IRI="#Séjour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Séjour_tout_compris"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#inclut"/>
+            <Class IRI="#Séjour_tout_compris"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Touriste"/>
+        <Class IRI="#Users"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Touriste"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#faitUneReservation"/>
+            <Class IRI="#Destination"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Train"/>
+        <Class IRI="#MobiliteCollective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trekking"/>
+        <Class IRI="#Sport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Users"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ville_patrimoniale"/>
+        <Class IRI="#Destination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Visite_guidée"/>
+        <Class IRI="#Divertissement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Voiture"/>
+        <Class IRI="#MobilitéIndividuelle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Voyagiste"/>
+        <Class IRI="#ServiceTouristique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Point_d&apos;interet"/>
+        <Class IRI="#Destination"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Avion"/>
+        <NamedIndividual IRI="#Air_France"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mobilité"/>
+        <NamedIndividual IRI="#Air_France"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Relief"/>
+        <NamedIndividual IRI="#Alpes_Francaises"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Appartement"/>
+        <NamedIndividual IRI="#Appartement_Central"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Auberge"/>
+        <NamedIndividual IRI="#Auberge_Bellevue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Divertissement"/>
+        <NamedIndividual IRI="#Festival_de_Cannes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Festival"/>
+        <NamedIndividual IRI="#Festival_de_Cannes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Voyagiste"/>
+        <NamedIndividual IRI="#GlobeTrotter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Accompagnateur"/>
+        <NamedIndividual IRI="#Guide_Marie_Dupont"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hotel"/>
+        <NamedIndividual IRI="#Hotel_Le_Louvre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hébergement"/>
+        <NamedIndividual IRI="#Hotel_Le_Louvre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Site_balnéaire"/>
+        <NamedIndividual IRI="#Plage_de_Copacabana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Trekking"/>
+        <NamedIndividual IRI="#Randonnée_Pyrénées"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location_avec_chauffeur"/>
+        <NamedIndividual IRI="#Service_Limousine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Séjour_tout_compris"/>
+        <NamedIndividual IRI="#Séjour_Premium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Train"/>
+        <NamedIndividual IRI="#TGV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Destination"/>
+        <NamedIndividual IRI="#Tour_Eiffel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visite_guidée"/>
+        <NamedIndividual IRI="#Visite_Louvre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ecotourisme"/>
+        <NamedIndividual IRI="#circuit_Vert"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Capacité"/>
+        <NamedIndividual IRI="#Air_France"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">180</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cout"/>
+        <NamedIndividual IRI="#Air_France"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">299</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Mode"/>
+        <NamedIndividual IRI="#Air_France"/>
+        <Literal>Vol Internationnal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nom"/>
+        <NamedIndividual IRI="#Air_France"/>
+        <Literal>Air FRANCE</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Altitude"/>
+        <NamedIndividual IRI="#Alpes_Francaises"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nom"/>
+        <NamedIndividual IRI="#Alpes_Francaises"/>
+        <Literal>Alpes Francaises</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibilité"/>
+        <NamedIndividual IRI="#Alpes_Francaises"/>
+        <Literal>Modérée</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Capacité"/>
+        <NamedIndividual IRI="#Appartement_Central"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Equipement"/>
+        <NamedIndividual IRI="#Appartement_Central"/>
+        <Literal>Cuisine équipe, Wifi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Localisation"/>
+        <NamedIndividual IRI="#Appartement_Central"/>
+        <Literal>Nice, France</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Prix"/>
+        <NamedIndividual IRI="#Appartement_Central"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">120.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Capacité"/>
+        <NamedIndividual IRI="#Auberge_Bellevue"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Equipement"/>
+        <NamedIndividual IRI="#Auberge_Bellevue"/>
+        <Literal>Petit déjeuner inclus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Localisation"/>
+        <NamedIndividual IRI="#Auberge_Bellevue"/>
+        <Literal>Lyon, France</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nom"/>
+        <NamedIndividual IRI="#Auberge_Bellevue"/>
+        <Literal>Auberge Bellevue</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cout"/>
+        <NamedIndividual IRI="#Festival_de_Cannes"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">29.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Date"/>
+        <NamedIndividual IRI="#Festival_de_Cannes"/>
+        <Literal>2025-05-15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Localisation"/>
+        <NamedIndividual IRI="#Festival_de_Cannes"/>
+        <Literal>Cannes France</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nom"/>
+        <NamedIndividual IRI="#Festival_de_Cannes"/>
+        <Literal>Festivale de Cannes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nom"/>
+        <NamedIndividual IRI="#GlobeTrotter"/>
+        <Literal>GlobeTrotter</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#adresse"/>
+        <NamedIndividual IRI="#GlobeTrotter"/>
+        <Literal>10 rue de la Paix, Paris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#coordonnées"/>
+        <NamedIndividual IRI="#GlobeTrotter"/>
+        <Literal>contact@globetrotter.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#service"/>
+        <NamedIndividual IRI="#GlobeTrotter"/>
+        <Literal>Forfaits
+Circuits</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#service"/>
+        <NamedIndividual IRI="#GlobeTrotter"/>
+        <Literal>Forfaits, Circuits</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Disponibilité"/>
+        <NamedIndividual IRI="#Guide_Marie_Dupont"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Exp"/>
+        <NamedIndividual IRI="#Guide_Marie_Dupont"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Langues_parlées"/>
+        <NamedIndividual IRI="#Guide_Marie_Dupont"/>
+        <Literal>Francais , Anglais</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nom"/>
+        <NamedIndividual IRI="#Guide_Marie_Dupont"/>
+        <Literal>Marie Dupont</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Capacité"/>
+        <NamedIndividual IRI="#Hotel_Le_Louvre"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">150</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Equipement"/>
+        <NamedIndividual IRI="#Hotel_Le_Louvre"/>
+        <Literal>Wifi , Piscine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Localisation"/>
+        <NamedIndividual IRI="#Hotel_Le_Louvre"/>
+        <Literal>Paris, France</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Prix"/>
+        <NamedIndividual IRI="#Hotel_Le_Louvre"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Altitude"/>
+        <NamedIndividual IRI="#Plage_de_Copacabana"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nom"/>
+        <NamedIndividual IRI="#Plage_de_Copacabana"/>
+        <Literal>Plage de copacabana</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#accessibilité"/>
+        <NamedIndividual IRI="#Plage_de_Copacabana"/>
+        <Literal>Modérée</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#Plage_de_Copacabana"/>
+        <Literal>Sablonneuse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Durée"/>
+        <NamedIndividual IRI="#Randonnée_Pyrénées"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Prix"/>
+        <NamedIndividual IRI="#Randonnée_Pyrénées"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Confort"/>
+        <NamedIndividual IRI="#Service_Limousine"/>
+        <Literal>Luxe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cout"/>
+        <NamedIndividual IRI="#Service_Limousine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">250.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Disponibilité"/>
+        <NamedIndividual IRI="#Service_Limousine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TypeVehicule"/>
+        <NamedIndividual IRI="#Service_Limousine"/>
+        <Literal>Limousine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cout"/>
+        <NamedIndividual IRI="#Séjour_Premium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Durée"/>
+        <NamedIndividual IRI="#Séjour_Premium"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Prestation_Incluses"/>
+        <NamedIndividual IRI="#Séjour_Premium"/>
+        <Literal>hébergement, repas, activités, transport</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Capacité"/>
+        <NamedIndividual IRI="#TGV"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Capacité"/>
+        <NamedIndividual IRI="#TGV"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">55</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Mode"/>
+        <NamedIndividual IRI="#TGV"/>
+        <Literal>Grande Vitesse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Localisation"/>
+        <NamedIndividual IRI="#Tour_Eiffel"/>
+        <Literal>Paris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nom"/>
+        <NamedIndividual IRI="#Tour_Eiffel"/>
+        <Literal>&quot;Tour Eiffel&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#Tour_Eiffel"/>
+        <Literal>Culturel</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cout"/>
+        <NamedIndividual IRI="#Visite_Louvre"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">25.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Durée"/>
+        <NamedIndividual IRI="#Visite_Louvre"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">120</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nom"/>
+        <NamedIndividual IRI="#Visite_Louvre"/>
+        <Literal>Visite Guidée du Louvre</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Certification"/>
+        <NamedIndividual IRI="#circuit_Vert"/>
+        <Literal>Label Vert</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Empreinte_Carbonne"/>
+        <NamedIndividual IRI="#circuit_Vert"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Impact_Env"/>
+        <NamedIndividual IRI="#circuit_Vert"/>
+        <Literal>Faible</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nom"/>
+        <NamedIndividual IRI="#circuit_Vert"/>
+        <Literal>Circuit Vert</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Date"/>
+        <NamedIndividual IRI="#Reservation_N°1234"/>
+        <Literal>2025-05-01 12:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Mode_Paiement"/>
+        <NamedIndividual IRI="#Reservation_N°1234"/>
+        <Literal>Carte Bancaire</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Num_Confirmation"/>
+        <NamedIndividual IRI="#Reservation_N°1234"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">123455</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#status"/>
+        <NamedIndividual IRI="#Reservation_N°1234"/>
+        <Literal>Confirmé</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Contient"/>
+        <Class IRI="#Destination"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#appartient_a"/>
+        <Class IRI="#Point_d&apos;interet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#associe_a"/>
+        <Class IRI="#Navigation_fluviale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#connecte"/>
+        <Class IRI="#Mobilité"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#faitUneReservation"/>
+        <Class IRI="#Touriste"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#guide"/>
+        <Class IRI="#Accompagnateur"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inclut"/>
+        <Class IRI="#Séjour_tout_compris"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#organise"/>
+        <Class IRI="#Voyagiste"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#permet"/>
+        <Class IRI="#Hébergement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#propose"/>
+        <Class IRI="#Destination"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#réservé_par"/>
+        <Class IRI="#Hébergement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#situé_a"/>
+        <Class IRI="#Hébergement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Contient"/>
+        <Class IRI="#Point_d&apos;interet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#appartient_a"/>
+        <Class IRI="#Destination"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#associe_a"/>
+        <Class IRI="#Mobilité"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#connecte"/>
+        <Class IRI="#Destination"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#faitUneReservation"/>
+        <Class IRI="#Hébergement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#guide"/>
+        <Class IRI="#Touriste"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inclut"/>
+        <Class IRI="#Hébergement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#organise"/>
+        <Class IRI="#Séjour"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#permet"/>
+        <Class IRI="#Séjour"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#propose"/>
+        <Class IRI="#Activité"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#réservé_par"/>
+        <Class IRI="#Touriste"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#situé_a"/>
+        <Class IRI="#Destination"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Confort"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Altitude"/>
+        <Class IRI="#Relief"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Capacité"/>
+        <Class IRI="#Hébergement"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Capacité"/>
+        <Class IRI="#Mobilité"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Cout"/>
+        <Class IRI="#Mobilité"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Date"/>
+        <Class IRI="#Reservation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Durée"/>
+        <Class IRI="#Activité"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Durée"/>
+        <Class IRI="#Séjour"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Empreinte_Carbonne"/>
+        <Class IRI="#Ecotourisme"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Equipement"/>
+        <Class IRI="#Hébergement"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Localisation"/>
+        <Class IRI="#Destination"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Mode"/>
+        <Class IRI="#Mobilité"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Mode_Paiement"/>
+        <Class IRI="#Reservation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nom"/>
+        <Class IRI="#Activité"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nom"/>
+        <Class IRI="#Destination"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nom"/>
+        <Class IRI="#Hébergement"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Prix"/>
+        <Class IRI="#Hébergement"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Prix"/>
+        <Class IRI="#Mobilité"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#adresse"/>
+        <Class IRI="#Activité"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#adresse"/>
+        <Class IRI="#Destination"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#adresse"/>
+        <Class IRI="#Hébergement"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#adresse"/>
+        <Class IRI="#Mobilité"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#service"/>
+        <Class IRI="#Voyagiste"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#status"/>
+        <Class IRI="#Reservation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#type"/>
+        <Class IRI="#Destination"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Capacité"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Cout"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Date"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Durée"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Durée"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Empreinte_Carbonne"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Equipement"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Localisation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Mode"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Mode_Paiement"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nom"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Prix"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#service"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#status"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
